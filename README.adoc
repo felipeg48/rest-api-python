@@ -1,0 +1,27 @@
+= Simple REST API in Python using FastAPI
+
+- Clone this repo
+- Make sure you have Python 3.9.x
+- Install and activate a Virtual Environment
++
+[source,shell]
+----
+python3 -m venv env
+source env/bin/activate
+----
+
+- Install dependencies
++
+[source,shell]
+----
+pip install -r requirements.txt
+----
+
+- Execute the app
++
+[source,shell]
+----
+python app.py
+----
+
+- Open a browser http://localhost:8000/[^]
